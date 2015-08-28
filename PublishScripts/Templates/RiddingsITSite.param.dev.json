@@ -1,0 +1,29 @@
+{
+  "siteName": {
+    "value": "RiddingsIT"
+  },
+  "hostingPlanName": {
+    "value": "RiddingsIT"
+  },
+  "siteLocation": {
+    "value": "North Europe"
+  },
+  "sku": {
+    "value": "Free"
+  },
+  "workerSize": {
+    "value": "0"
+  },
+  "siteMode": {
+    "value": "Limited"
+  },
+  "computeMode": {
+    "value": "0"
+  },
+  "subscriptionId": {
+    "value": "d95d5ae6-7115-4ac8-8ef9-984a912d7dc6"
+  },
+  "resourceGroup": {
+    "value": "RiddingsITRG"
+  }
+}

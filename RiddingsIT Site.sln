@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RiddingsIT Site", "RiddingsIT Site\RiddingsIT Site.csproj", "{E4EA7E4B-0489-478C-9875-6E3011633894}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{D7B4DC57-5D7E-4689-9F79-CCB79021C691}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{A3BA12FB-C17A-46F0-B053-3CDD1E96155C}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1 = PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Templates", "Templates", "{F9DD5092-322C-4EE1-9C32-33FE9CF499BD}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Templates\RiddingsITSite.json = PublishScripts\Templates\RiddingsITSite.json
+		PublishScripts\Templates\RiddingsITSite.param.dev.json = PublishScripts\Templates\RiddingsITSite.param.dev.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E4EA7E4B-0489-478C-9875-6E3011633894}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4EA7E4B-0489-478C-9875-6E3011633894}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4EA7E4B-0489-478C-9875-6E3011633894}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4EA7E4B-0489-478C-9875-6E3011633894}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A3BA12FB-C17A-46F0-B053-3CDD1E96155C} = {D7B4DC57-5D7E-4689-9F79-CCB79021C691}
+		{F9DD5092-322C-4EE1-9C32-33FE9CF499BD} = {D7B4DC57-5D7E-4689-9F79-CCB79021C691}
+	EndGlobalSection
+EndGlobal
